@@ -1,0 +1,14 @@
+project(MemoryPool):acelib{
+	Source_Files{
+		MemoryPool.c
+		MemoryBlock.c
+	}
+
+	Header_Files{
+		IMemoryPool.h
+		MemoryPool.h
+		MemoryBlock.h
+		ThreadLock.h
+	}
+}
+
